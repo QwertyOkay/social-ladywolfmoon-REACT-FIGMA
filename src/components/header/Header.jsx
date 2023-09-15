@@ -1,11 +1,11 @@
-import Burger from 'components/buttonMob/buttonMob';
+// import Burger from 'components/buttonMob/buttonMob';
 import Container from 'components/container/Container';
 import styles from './Header.module.scss';
 
 function Header() {
   return (
     <>
-      <Burger />
+      {/* <Burger /> */}
       <header className={styles.header}>
         <Container>
           <nav className={styles.navBlock}>
