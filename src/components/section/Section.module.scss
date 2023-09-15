@@ -1,0 +1,55 @@
+@import 'styles/vars';
+
+.section {
+  // background-image: url(../../images/bg.png);
+  background-size: cover;
+  // padding: 25px;
+  @media screen and (min-width: 1200px) {
+    // background-image: url(../../images/bgDesk.png);
+    // background-position: center;
+  }
+}
+
+.third {
+  composes: section;
+  background-image: url(../../images/bgDownload.png);
+  padding-bottom: 25px;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 130px;
+  }
+}
+
+.second {
+  composes: section;
+  background-image: url(../../images/bgSecond.png);
+
+  @media screen and (max-width: 1200px) {
+    padding: 0px 0 195px 0;
+    margin-top: 250px;
+    background-size: 100% 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    // padding: 63px 0;
+    background-image: url(../../images/bgSecondDesk.png);
+    margin-top: 130px;
+    height: 775px;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 0px 0 215px 0;
+  }
+}
+
+.fourth {
+  padding: 25px;
+}
+
+// .SectionBg {
+//   @media screen and (min-width: 1200px) {
+//     background-image: url(../../images/bgDesk.png);
+//   }
+// }
+
+.about {
+  padding: 25px !important;
+}
