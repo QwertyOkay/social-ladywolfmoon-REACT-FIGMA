@@ -22,11 +22,11 @@
 
 .second {
   composes: section;
-  background-image: url(../../images/bgSecond.png);
+  // background-image: url(../../images/bgSecond.png);
 
   @media screen and (max-width: 1200px) {
     padding: 0px 0 195px 0;
-    margin-top: 250px;
+    margin-top: 20px;
     background-size: 100% 100%;
   }
   @media screen and (min-width: 1200px) {

@@ -46,7 +46,7 @@ function TermsModal({ showTerms }) {
               2.1. The following keywords and phrases are defined in this User
               Agreement:
             </p>
-            <p>2.1.1. The website can be found at slotsdeluxes.com</p>
+            <p>2.1.1. The website can be found at Ladywolfmoon.com</p>
             <p>
               2.1.2. The SlotsDeluxes Internet Website hosts the following
               documents: general information about available video slot games.

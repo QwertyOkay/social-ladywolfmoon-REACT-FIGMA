@@ -11,10 +11,10 @@ function Second() {
         <div className={styles.textWrapSecond}>
           <h1 className={styles.title3}>Our slots</h1>
           <p className={styles.text4}>
-            Experience an extraordinary gaming journey where cutting-edge
-            visuals, captivating audio, and easy gameplay come together. Our
-            slot games offer more than just entertainment – they combine visuals
-            and sounds to transport you to a realm of enchantment.
+            Embark on an extraordinary gaming journey where state-of-the-art
+            visuals, captivating audio, and user-friendly gameplay converge. Our
+            slot games offer more than mere entertainment; they blend visuals
+            and sounds to transport you to a world of enchantment.
           </p>
         </div>
         <div className={styles.imgWrapSecond}>

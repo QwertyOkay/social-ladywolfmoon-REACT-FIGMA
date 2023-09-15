@@ -60,7 +60,7 @@ function Footer() {
           </div>
           <div className={styles.footerFont}>
             <small>
-              Slotsdeluxes.com &copy; 2022-2023 <br></br>All rights reserved{' '}
+              Ladywolfmoon.com &copy; 2022-2023 <br></br>All rights reserved{' '}
             </small>
           </div>
         </Container>

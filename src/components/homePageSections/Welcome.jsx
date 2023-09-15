@@ -10,12 +10,13 @@ function Welcome() {
     <Section id="welcome" className={styles.SectionBg}>
       <Container variant="containerMain">
         <div className={styles.textWrap}>
-          <h1 className={styles.title}>Welcome</h1>
+          <h1 className={styles.title3}>Welcome</h1>
           <p className={styles.text}>
-            Explore our thoughtfully chosen collection of amazing slot games,
-            designed to give you a thrilling and exciting experience. Each game
-            is like a piece of art, created to captivate your senses and keep
-            you eagerly anticipating every moment.
+            Explore our thoughtfully curated assortment of captivating slot
+            games, each meticulously crafted to provide heart-pounding and
+            thrilling experiences. Every game is a masterpiece designed to
+            engage your senses and keep you eagerly anticipating each exciting
+            moment.
           </p>
           <div className={styles.btn2}>
             <GoogleButton />
