@@ -14,105 +14,64 @@ function PrivacyModal({ showPrivacy }) {
             onClick={() => showPrivacy(false)}
           />
           <ModalTextWrap title={'Privacy Policy'}>
-            <h3>Introduction</h3>
             <p>
-              SlotDeluxes values your personal information's privacy and
-              security. This Privacy Policy describes our practices and policies
-              for collecting, storing, and using your personal information in
-              connection with your use of our website, which can be found at
-              slotdeluxes.com. You agree to be bound by this Privacy Policy by
-              accessing or using our website.
+              Your privacy is important to us. This Privacy Policy outlines how
+              we collect, use, disclose, and safeguard your personal
+              information. By using this website (the "Site"), you consent to
+              the practices described in this Privacy Policy.
             </p>
-            <h3>The Data We Gather</h3>
+            <h3>Information We Collect</h3>
             <p>
-              Contact Form: We ask for your name and email address when you fill
-              out the "Contact Us" form. We collect and process this information
-              in order to provide you with the requested assistance and
-              information, as well as to keep accurate records of our
-              interactions with you. This information may also be used to
-              initiate a contract with you and to improve our website and user
-              experience, which we believe is a legitimate business interest.
+              Personal Information: We may collect personal information from
+              you, such as your name and email address, when you voluntarily
+              provide it to us. Non-Personal Information: We may also collect
+              non-personal information about your visit to the Site, such as the
+              type of browser you use, your operating system, and your IP
+              address. This information is collected to help us improve the Site
+              and better understand how visitors use it.
             </p>
+            <h3>Use of Information</h3>
             <p>
-              Google Analytics: We may use Google Analytics to collect
-              non-personalized information. This information is used to
-              understand and improve the performance of our website and cannot
-              be used to identify you. Our cookies policy contains more
-              information about the collection and use of this information.
+              We may use your personal information to: Respond to your
+              inquiries, comments, or requests. Send you email updates and
+              newsletters if you have subscribed to them. Improve our services
+              and the content of the Site. We will not sell, trade, or rent your
+              personal information to third parties.
             </p>
-            <h3>Information Utilization</h3>
+            <h3>Cookies</h3>
             <p>
-              The information gathered in Section 2.1 is used and processed to:
-              Contact you about our products and services, as well as industry
-              events where you can meet us. By analyzing your website activity,
-              we can personalize, measure, and improve our marketing efforts.
-              SlotDeluxes is dedicated to protecting your personal information
-              and will not share, rent, or sell it to third parties unless
-              required by law or to fulfill a contractual obligation.
+              We may use cookies to enhance your experience on the Site. Cookies
+              are small text files placed on your computer for record-keeping
+              purposes.
             </p>
-            <h3>Disclosure and Sharing</h3>
+            <h3>Third-Party Links</h3>
             <p>
-              We take your personal data security seriously and only share it in
-              the circumstances described below.
+              The Site may contain links to third-party websites. We are not
+              responsible for the privacy practices or content of these
+              websites.
             </p>
-            <h3>Defense of Our Rights</h3>
+            <h3>Security</h3>
             <p>
-              If and to the extent required or permitted by law, or if such
-              disclosure is reasonably necessary, we may disclose your personal
-              information to courts, law enforcement, governmental authorities,
-              or authorized third parties. This is required for our legitimate
-              interests, such as protecting and asserting our legal rights and
-              protecting our business from risks.
+              We take reasonable precautions to protect your personal
+              information. However, no method of data transmission over the
+              internet or electronic storage is entirely secure, and we cannot
+              guarantee its absolute security.
             </p>
-            <h3>Subject Rights to Data</h3>
+            <h3>Changes to this Privacy Policy</h3>
             <p>
-              You have a number of rights in relation to your personal data
-              under the General Data Protection Regulation. Some of your data
-              can be accessed, corrected, ported, and deleted. You also have the
-              right to object to and limit certain data processing. The exercise
-              of these rights will be determined by factors such as the nature
-              of the data, the purpose for which it is processed, and legal or
-              operational retention requirements.
+              We reserve the right to update or modify this Privacy Policy at
+              any time. Any changes will be effective immediately upon posting
+              on the Site.
             </p>
+            <h3>Your Choices</h3>
             <p>
-              Please send an email to helpdesk@slotdeluxes.com to request any of
-              the aforementioned rights. Please keep in mind that we may need to
-              confirm your identity before proceeding with your request.
+              You can opt-out of receiving email updates and newsletters by
+              following the instructions provided in those communications.
             </p>
+            <h3>Contact Us</h3>
             <p>
-              While we will do our best to accommodate your request, please keep
-              in mind that your rights are not absolute, and we may have to
-              refuse or partially comply with it.
-            </p>
-            <h3>Your Legal Rights</h3>
-            <h4>Correction of Incorrect or Incomplete Information</h4>
-            <p>
-              You have the right to request that any inaccurate or incomplete
-              personal information we have on file for you be corrected.
-            </p>
-            <h4>Data Portability and Access</h4>
-            <p>
-              You have the right to request access to your personal data and a
-              copy of your personal data in a structured, commonly used, and
-              machine-readable format. You can also ask us to send this
-              information to another data controller if it is technically
-              possible.
-            </p>
-            <h4>Data Retention and Erasure</h4>
-            <p>
-              We will retain your personal information for as long as is
-              necessary to fulfill the purposes for which it was collected and
-              to comply with our legal obligations. We will securely delete or
-              anonymize your personal data once it is no longer necessary for us
-              to process it.
-            </p>
-            <h3>Get in Touch</h3>
-            <p>
-              Please contact our data protection officer at
-              helpdesk@slotdeluxes.com if you have any questions or concerns
-              about our privacy practices or your rights under applicable data
-              protection laws. You can also find the contact information for the
-              data controllers via our website's "Contact Us" form.
+              If you have any questions or concerns about this Privacy Policy,
+              please contact us at: Email: info@ladywoolfmoon.com
             </p>
           </ModalTextWrap>
         </Modal>
