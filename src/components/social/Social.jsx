@@ -1,4 +1,4 @@
-import { RiVimeoLine, RiInstagramLine } from 'react-icons/ri';
+import { RiInstagramLine } from 'react-icons/ri';
 import { FiFacebook, FiYoutube } from 'react-icons/fi';
 
 import styles from './Social.module.scss';
@@ -17,7 +17,7 @@ function Social() {
           <FiYoutube />
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           href="https://www.vimeo.com"
           aria-label="vimeo"
@@ -27,7 +27,7 @@ function Social() {
         >
           <RiVimeoLine />
         </a>
-      </li>
+      </li> */}
       <li>
         <a
           href="https://www.facebook.com"

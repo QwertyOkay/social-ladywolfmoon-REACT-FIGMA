@@ -31,6 +31,7 @@ function Second() {
             />
             <img src={secondImage} alt="The Game" />
           </picture>
+          <h1 className={styles.title}>Obtain the App</h1>
         </div>
       </Container>
     </Section>
