@@ -321,5 +321,10 @@
 .flow {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  padding: 0px 20px 20px;
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 100px;
+    padding: 0px;
+  }
 }
