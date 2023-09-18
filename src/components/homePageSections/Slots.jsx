@@ -1,7 +1,7 @@
 import Section from 'components/section/Section';
 import Container from 'components/container/Container';
 import secondImage from 'images/second.png';
-// import secondImageMobile from 'images/secondMobile.png';
+import secondDesk from 'images/secondDesk.png';
 import styles from './homePageSections.module.scss';
 
 function Second() {
@@ -20,12 +20,12 @@ function Second() {
         <div className={styles.imgWrapSecond}>
           <picture>
             <source
-              srcSet={secondImage}
+              srcSet={secondDesk}
               type="image/png"
               media="(min-width: 1200px)"
             />
             <source
-              srcSet={secondImage}
+              srcSet={secondDesk}
               type="image/png"
               media="(max-width: 1200px)"
             />

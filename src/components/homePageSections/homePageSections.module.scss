@@ -56,10 +56,12 @@
     position: inherit;
     margin-top: 0px;
     text-align: center;
-    font-size: 48px;
+    font-size: 100px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 600;
+    line-height: 110px;
+    text-transform: capitalize;
+    margin-top: 100px;
   }
 }
 
@@ -67,8 +69,8 @@
   @media screen and (min-width: 1200px) {
     padding: 50px 0px 20px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 }
@@ -106,7 +108,7 @@
   @media screen and (min-width: 1200px) {
     font-size: 20px;
     width: 520px;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -189,10 +191,9 @@
   }
 
   @media screen and (min-width: 1200px) {
-    // margin: 0 auto;
     max-width: 663px;
-    width: 650px;
-    height: 715px;
+    width: 570px;
+    height: 505px;
   }
 }
 
