@@ -43,7 +43,7 @@
     align-items: center;
     gap: 50px;
     width: 1045px;
-    /* height: 635px; */
+    height: auto;
     /* border-radius: 40px; */
     /* background: linear-gradient(181deg, #f7f651 0%, #fa793f 47.53%, #ed374d 100%); */
     overflow: hidden;
@@ -66,6 +66,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(../../images/bgThirdDesk.png);
+    background-size: contain;
   }
 }
 

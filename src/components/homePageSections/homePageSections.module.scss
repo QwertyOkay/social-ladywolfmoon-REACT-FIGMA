@@ -15,6 +15,15 @@
     text-align: left;
     // color: #f55f45;
     font-size: 64px;
+
+    position: inherit;
+    margin: 50px;
+    text-align: center;
+    font-size: 64px;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
   }
 }
 
@@ -83,8 +92,12 @@
 
 .textWrapThird {
   @media screen and (min-width: 1200px) {
-    max-width: 770px;
-    padding: 120px 0 30px;
+    // max-width: 770px;
+    max-width: 850px;
+    padding: 120px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
 
   @media screen and (min-width: 1920px) {
@@ -202,7 +215,7 @@
   margin: 0 auto;
 
   @media screen and (min-width: 1280px) {
-    width: 615px;
+    width: 540px;
     // height: 220px;
     max-width: none;
   }
@@ -242,9 +255,10 @@
 .imgThird {
   @media screen and (min-width: 1200px) {
     max-width: 525px;
-    width: 401.924px;
-    height: 434.496px;
-    margin-top: -30px;
+    width: 450.924px;
+    height: 850px;
+    margin-top: -222px;
+    margin-left: -86px;
   }
 }
 
@@ -302,4 +316,10 @@
 
 .about {
   padding: 25px !important;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
 }

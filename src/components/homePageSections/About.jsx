@@ -1,10 +1,10 @@
 import Section from 'components/section/Section';
 import Container from 'components/container/Container';
-import thirdImage from 'images/third.png';
+// import thirdImage from 'images/third.png';
 import handImage from 'images/hand.png';
 
-import thirdImageMobile from 'images/thirdMobile.png';
-import fourthImage from 'images/fourth.png';
+// import thirdImageMobile from 'images/thirdMobile.png';
+// import fourthImage from 'images/fourth.png';
 // import thirdImageMobile1 from 'images/thirdMobile1.png';
 import styles from './homePageSections.module.scss';
 import GoogleButton from 'components/googleButton/GoogleButton';
@@ -14,7 +14,6 @@ function Third() {
     <Section variant="third" id="download">
       <Container variant="containerMainThird">
         <div className={styles.textWrapThird}>
-          {/* <h1 className={styles.title}>Obtain the App</h1> */}
           <div className={styles.imgWrapThird}>
             <picture>
               <source
@@ -30,13 +29,16 @@ function Third() {
               <img className={styles.imgThird} src={handImage} alt="The Game" />
             </picture>
           </div>
-          <p className={styles.text3}>
-            Our app is designed for everyone, catering to all skill levels.
-            Whether you're a newcomer or a seasoned player in the world of slot
-            games, our mobile application keeps you connected to the market.
-            You'll discover the perfect game that matches your skill level and
-            keeps you entertained for extended periods.
-          </p>
+          <div className={styles.flow}>
+            <p className={styles.text3}>
+              Our app is designed for everyone, catering to all skill levels.
+              Whether you're a newcomer or a seasoned player in the world of
+              slot games, our mobile application keeps you connected to the
+              market. You'll discover the perfect game that matches your skill
+              level and keeps you entertained for extended periods.
+            </p>
+            <GoogleButton />
+          </div>
         </div>
         {/* <div className={styles.btn}>
           <GoogleButton />
@@ -56,17 +58,6 @@ function Third() {
             <img className={styles.imgThird} src={thirdImage} alt="The Game" />
           </picture>
         </div> */}
-        <Container variant="containerMainFourth">
-          <div className={styles.btnFourth}>
-            {/* <img
-              className={styles.imgFourth}
-              src={fourthImage}
-              alt="The Game"
-            /> */}
-            {/* <p className={styles.downloadP}>What are you waiting for?</p> */}
-            <GoogleButton />
-          </div>
-        </Container>
       </Container>
     </Section>
   );
